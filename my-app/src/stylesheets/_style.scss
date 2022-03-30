@@ -1,0 +1,82 @@
+// @use "base" with (
+//   $breakpoints: (
+//     "xs": 32rem,
+//     // ~512px
+//     "sm": 48rem,
+//     // ~768px
+//     "md": 64rem,
+//     // ~1024px
+//     "lg": 80rem,
+//     // ~1280px
+//     "xl": 90rem // ~1440px,,,,,,,
+//   ),
+//   $grid-columns: 12
+// );
+
+@import "custom-style";
+// // @use "components/**/*.scss";
+
+// @charset "UTF-8";
+
+// // 1. Configuration and helpers
+// @import "abstracts/variables", "abstracts/functions", "abstracts/mixins";
+
+// // 2. Vendors
+// @import "vendors/normalize";
+
+// // 3. Base stuff
+// @import "base/base", "base/fonts", "base/typography", "base/helpers";
+
+// // 4. Layout-related sections
+// @import "layout/header", "layout/footer";
+
+// // 5. Components
+// @import "components/button";
+
+// // 6. Page-specific styles
+// @import "pages/home";
+
+// // 7. Themes
+// @import "themes/default";
+
+@import "vendors/reset";
+
+@import "abstracts/variables";
+@import "abstracts/breakpoints";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+@import "base/accessibility";
+@import "base/base";
+@import "base/colors";
+@import "base/fonts";
+@import "base/helpers";
+@import "base/shared-styles";
+@import "base/spacing";
+@import "base/typography";
+@import "base/util";
+@import "base/visibility";
+@import "base/z-index";
+
+@import "components/buttons";
+@import "components/forms";
+@import "components/icons";
+@import "components/list";
+
+@import "custom-style/buttons";
+@import "custom-style/colors";
+@import "custom-style/forms";
+@import "custom-style/icons";
+@import "custom-style/shared-styles";
+@import "custom-style/spacing";
+@import "custom-style/typography";
+@import "custom-style/util";
+@import "custom-style/z-index";
+
+@import "layout/footer";
+@import "layout/grid-layout";
+@import "layout/header";
+
+@import "pages/home";
+
+@import "themes/default";

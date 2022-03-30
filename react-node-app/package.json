@@ -1,0 +1,22 @@
+{
+  "name": "react-node-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": "14.15.4",
+    "npm": "6.14.10"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/index.js",
+    "build": "cd ../my-app && npm install && npm run build"
+  },
+  "keywords": [],
+  "author": "Successful Businessman",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.3"
+  }
+}

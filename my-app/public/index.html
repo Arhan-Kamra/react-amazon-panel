@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!-- Add the Play CDN script to your HTML
+Add the Play CDN script tag to the <head> of your HTML file, and start using Tailwind’s utility classes to style your content. -->
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
+    <!-- Try customizing your config
+Edit the tailwind.config object to customize your configuration with your own design tokens. -->
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+            },
+          },
+        },
+      };
+    </script>
+    <!-- Try adding some custom CSS
+Use type="text/tailwindcss" to add custom CSS that supports all of Tailwind's CSS features. -->
+    <style type="text/tailwindcss">
+      @layer utilities {
+        .content-auto {
+          content-visibility: auto;
+        }
+      }
+    </style>
+    <title>Mosaic Lite</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+
+    <!-- <ul>
+      <li>npm install node-sass@npm:sass</li>
+      <li>npm install node-sass@npm:sass --save-dev</li>
+      <li>import './name.module.scss'</li>
+      <li>
+        npm run deploy to update web page from git side ( not necessarily github
+        but git page )
+      </li>
+      <li>use <Helmet /> library</li>
+    </ul> -->
+  </body>
+</html>
