@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/react-amazon-panel/static/css/main.82a17b61.css",
+    "main.js": "/react-amazon-panel/static/js/main.68dd49f6.js",
+    "static/js/787.28cb0dcd.chunk.js": "/react-amazon-panel/static/js/787.28cb0dcd.chunk.js",
+    "static/media/Right.png": "/react-amazon-panel/static/media/Right.357cbccdc30b7617ff04.png",
+    "index.html": "/react-amazon-panel/index.html",
+    "main.82a17b61.css.map": "/react-amazon-panel/static/css/main.82a17b61.css.map",
+    "main.68dd49f6.js.map": "/react-amazon-panel/static/js/main.68dd49f6.js.map",
+    "787.28cb0dcd.chunk.js.map": "/react-amazon-panel/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.82a17b61.css",
+    "static/js/main.68dd49f6.js"
+  ]
+}
